@@ -3,6 +3,8 @@
   "version": "2.0.1",
   "description": "A starter kit for building web applications by KnowledgeHut upGrad for the JavaScript and FullStack Programs",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "dev": "npx vite serve --host",
     "build": "npx vite build --emptyOutDir",
     "preview": "npx vite preview --host"
